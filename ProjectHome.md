@@ -1,0 +1,7 @@
+We present a new data-driven paradigm for solving mapping problems on parallel computers. This paradigm targets at mapping data modules, instead of task modules, onto multiple processing cores. By dependency analysis of data modules, we devise a data movement matrix to reduce the need of manipulating task program modules at the expenses of handling data modules. To visualize, quantify, and even optimize the complex maneuver, we adopt the parallel activities trace graphs introduced earlier. To demonstrate the procedure and algorithmic values of our paradigm, we test it on the Strassen matrix multiplication and Cholesky matrix inversion algorithms. Mapping tasks has been more widely studied while mapping data is a new approach that appears to be more efficient for data-intensive applications that are becoming prevalent for today’s parallel computers with millions of cores.
+
+This work is by <a href='https://www.researchgate.net/profile/Peng_Zhang79'>Peng Zhang</a> <Peng.Zhang@Stonybrook.edu> at Stony Brook University, NY 11794.
+
+Acknowledgment: We kindly ask you to cite this data-driven mapping paper as appropriately as possible in your papers:
+
+**P. Zhang, L. Liu, Y. Deng, "A Data-driven Paradigm for Mapping Problems",**<em>Parallel Computing</em>. 2015, <a href='http://dx.doi.org/10.1016/j.parco.2015.05.002'>doi:10.1016/j.parco.2015.05.002</a>
